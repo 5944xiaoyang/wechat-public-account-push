@@ -1,16 +1,16 @@
 /* eslint-disable */
 const TEMPLATE_CONFIG = [
   {
-    id: '0001',
-    title: '亲爱的, 早上好',
+    id: 'o6DX56bIBqdA6g2HhyhV2InGnZqA',
+    title: '亲爱的张张, 早上好呀',
     desc: `
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
+      下个休息日：{{holidaytts.DATA}}:'春节',
       
       ---
       
-      城市：{{city.DATA}}
+      城市：{{city.DATA}}:'湖北钟祥',
       
       天气：{{weather.DATA}}
       
@@ -24,9 +24,9 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们相识的第{{love_day.DATA}}天:'2022-06-24',
       
-      {{birthday_message.DATA}}
+      {{birthday_message.DATA}}:'01-20',
       
       ---
       
@@ -36,7 +36,7 @@ const TEMPLATE_CONFIG = [
     `
   },
   {
-    id: '0002',
+    id: 'o6DX56Zu03fXZVhDr0T3LN3eUcpc',
     title: '推送完成提醒',
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
