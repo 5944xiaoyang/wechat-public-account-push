@@ -8,56 +8,56 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'o6DX56Zu03fXZVhDr0T3LN3eUcpc',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'o6DX56bIBqdA6g2HhyhV2InGnZqA',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '湖北',
+  CITY: '钟祥',
 
-  USERS: [
+  USERS: ['o6DX56bIBqdA6g2HhyhV2InGnZqA','o6DX56bIBqdA6g2HhyhV2InGnZqA']
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '张张',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o6DX56bIBqdA6g2HhyhV2InGnZqA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '	XtsADQk7YcpNjS0q_3rOfTZqyLah_wFjxTOD0OZ-C_4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '01-20',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '张张', year: '2002', date: '01-20',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '悦悦', year: '2002', date: '09-27',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2022', date: '06-11',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'love_day', date: '2022-06-24' },
+        // 相遇纪念日
+        { keyword: 'meet_day', date: '2022-06-29' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'Zic-j7xZrcb6dc1_fRm4X5TiznKOoBSZwqjrlAwgodw',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o6DX56Zu03fXZVhDr0T3LN3eUcpc',
     }
   ],
 
